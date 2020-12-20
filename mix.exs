@@ -22,7 +22,8 @@ defmodule Password.MixProject do
   defp deps do
     [
       {:argon2_elixir, "~> 2.1"},
-      {:ecto_sql, "~> 3.5"}
+      {:ecto_sql, "~> 3.5"},
+      {:faker, "~> 0.16.0", only: :test}
     ]
   end
 end
