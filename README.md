@@ -1,16 +1,16 @@
 # Password
 
-**TODO: Add description**
+sugar for password checking, hashing, and validating
 
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `password` to your list of dependencies in `mix.exs`:
+by adding `struttura_password` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:password, "~> 0.1.0"}
+    {:struttura_password, "~> 0.1.0"}
   ]
 end
 ```
