@@ -4,7 +4,7 @@ defmodule Password.MixProject do
   def project do
     [
       app: :struttura_password,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
       description: "sugar for password checking, hashing, and validating",
