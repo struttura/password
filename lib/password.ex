@@ -29,7 +29,7 @@ defmodule Password do
   def validate_password_format(%Ecto.Changeset{} = changeset) do
     validate_change(changeset, :password, fn _, value ->
       case is_strong_password?(value) do
-        true ->
+        password when is_binary(password) ->
           []
 
         false ->
